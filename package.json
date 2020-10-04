@@ -1,0 +1,19 @@
+{
+  "name": "accountbook",
+  "version": "1.0.0",
+  "description": "Account book for the bank account",
+  "main": "dist/main.js",
+  "readme": "README.md",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "lint": "tslint -c tslint.json -p tsconfig.json",
+    "start": "npm run build && electron ./dist/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^10.1.3"
+  }
+}
